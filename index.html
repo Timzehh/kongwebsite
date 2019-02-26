@@ -66,6 +66,7 @@
             <a onclick="play()" href="#about" class="btn btn-custom btn-lg page-scroll">Discover Story</a> </div>
 			<audio id="audio" src="Donkey Kong 64 - Ok.mp3" ></audio>
 			<audio id="audio2" src="DK Rap ear rape improved.mp3" ></audio>
+			<audio id="konga" src="Donkey Kong 64 - DK Rap.mp3" loop="loop"></audio>
         </div>
       </div>
     </div>
@@ -345,12 +346,15 @@
           <li><a href="https://twitter.com/donkeykong?lang=en"><i class="fa fa-twitter"></i></a></li>
         </ul>
       </div>
-      <p>&copy; 2016 Krew©. All rights reserved. Designed by <a href="https://www.sanger.dk" rel="nofollow">Yurmum</a></p>
+      <p>&copy; 2016 KrewÂ©. All rights reserved. Designed by <a href="https://www.sanger.dk" rel="nofollow">Yurmum</a></p>
     </div>
   </div>
 </div>
 
 <script>
+  window.onload = function() {
+    document.getElementById("konga").play();
+  }
   function play(){
        var audio = document.getElementById("audio");
        audio.play();
