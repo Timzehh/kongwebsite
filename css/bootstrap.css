@@ -12,6 +12,7 @@ html {
 }
 body {
   margin: 0;
+  cursor: url("../img/intro-bg.jpg"), default;
 }
 article,
 aside,
