@@ -6,7 +6,7 @@ body, html {
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
-	cursor: url("../img/dk.ico"), default;
+	cursor: url("../img/intro-bg.jpg"), default;
 }
 h2 {
 	margin: 0 0 20px 0;
